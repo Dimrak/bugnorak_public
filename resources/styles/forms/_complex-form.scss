@@ -1,0 +1,83 @@
+.container-complex-form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-complex{
+    display: inline-block!important;
+    width: 40%;
+    text-align: center; 
+    margin: 20px;
+}
+.select-complex{
+    width: 40%;
+    display: inline-block;
+    margin: 20px;
+}
+.textarea-complex{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    margin-bottom: 20px;
+}
+.checkbox-div{
+    display: inline-block;
+    margin: 30px;
+}
+@media only screen and (max-width: 500px){
+   .container-complex-form{
+        display: block;
+   }
+   .input-complex{
+        width: 100%;
+        margin: 20px auto;
+   }
+   .select-complex{
+        width: 100%;
+        margin: 20px auto;
+   }
+   .textarea-complex{
+       width: 100%;
+   }
+}
+.show-label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+.input-complex-margin{
+    text-align: left!important;
+    margin-left: 20px;
+}
+.show-boxes{
+    border: 0px solid indianred;
+    background-color: rgba(0,0,0,0);    
+}
+.show-boxes-extra-space{
+    width: 60%;
+    padding-bottom: 30px;
+}
+.smaller-space{
+    width: 20%;
+}
+//Custom-bar if website link too long
+ .custom-bar::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px $blue-label;
+     background-color: #F5F5F5;
+ }
+ 
+ .custom-bar::-webkit-scrollbar
+ {
+     width: 6px;
+     background-color: #F5F5F5;
+ }
+ 
+ .custom-bar::-webkit-scrollbar-thumb
+ {
+     background-color: $blue-label;
+ }
+ .link-style{
+     text-decoration: none;
+     color: black;
+ }

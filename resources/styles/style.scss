@@ -1,0 +1,51 @@
+@import "./variables";
+@import "./fonts";
+@import "./header";
+@import "./search-boxes";
+@import "forms/general-form";
+@import "./create";
+@import "./edit";
+@import "./create-contact";
+@import "./edit-contact";
+
+  /* Reset */
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html{
+    font-family: $primary-font;
+    zoom: 0.9;
+    font-size: 0.9em;
+}
+
+@media only screen and (min-width: 1024px){
+    html{
+        zoom: 0.8;
+    }
+}
+body{
+    background-color: $primary-color;
+    // color: $submit-button;
+}
+//Main-wrapper
+.pageWrapper{
+    min-height: 120vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+/*footer*/
+footer {
+    /*position: absolute;*/
+    padding: 20px 0px;
+    background-color:rgba(19, 31, 36, 1);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

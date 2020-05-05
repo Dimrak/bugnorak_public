@@ -1,0 +1,29 @@
+@import "./simple-form";
+@import "./complex-form";
+
+input[type="submit"]{
+    background-color: $submit-button;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+    color: $light-color;
+    font-weight: 700;
+    font-size: 110%;
+    .fa-exclamation{
+        color: $blue-label;
+    }
+}
+.custom-link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.custom-link:hover {
+    border-radius: 10px;
+    border-bottom: 2px solid indianred;
+    border-top: 2px solid indianred;
+    background-color: rgba(84, 79, 64,0.9);
+    color: white;
+    transition: 0.5s;
+}
